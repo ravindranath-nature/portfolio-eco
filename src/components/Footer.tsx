@@ -17,7 +17,7 @@ const Footer = () => {
     { 
       name: "ResearchGate", 
       icon: <Globe className="w-5 h-5" />,
-      url: "https://www.researchgate.net/profile/Ravindra-Tripathi"
+      url: "https://www.researchgate.net/profile/Ravindra-Tripathi-3?ev=hdr_xprf"
     },
     { 
       name: "ORCID", 
@@ -54,7 +54,7 @@ const Footer = () => {
                 <span className="text-lg font-bold">RT</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Dr. Ravindra Nath Tripathi</h3>
+                <h3 className="text-xl font-bold">Ravindra Nath Tripathi</h3>
                 <p className="text-primary-foreground/80 text-sm">PhD in Computer Science & Engineering</p>
               </div>
             </div>
@@ -126,7 +126,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="flex items-center space-x-4 text-sm text-primary-foreground/80">
-              <span>© {currentYear} Dr. Ravindra Nath Tripathi</span>
+              <span>© {currentYear} Ravindra Nath Tripathi</span>
               <span className="hidden sm:inline">•</span>
               <span className="hidden sm:inline">All rights reserved</span>
             </div>

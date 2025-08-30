@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-aerial-wetlands.jpg";
-import { ChevronDown, Plane, TreePine, Waves } from "lucide-react";
+import { ChevronDown, Plane, TreePine, Waves,Globe,Brain } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -36,18 +36,24 @@ const HeroSection = () => {
           <div className="p-3 bg-forest-deep/20 rounded-full animate-organic-pulse" style={{ animationDelay: '2.6s' }}>
             <TreePine className="w-8 h-8 text-white" />
           </div>
+          <div className="p-3 bg-forest-deep/20 rounded-full animate-organic-pulse" style={{ animationDelay: '2.6s' }}>
+            <Globe className="w-8 h-8 text-white" />
+          </div>
+          <div className="p-3 bg-forest-deep/20 rounded-full animate-organic-pulse" style={{ animationDelay: '2.6s' }}>
+            <Brain className="w-8 h-8 text-white" />
+          </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Dr. Ravindra Nath Tripathi, PhD
+        <h1 className="text-5xl md:text-5xl font-bold text-white mb-6 leading-tight">
+          Ravindra Nath Tripathi, PhD
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-4xl mx-auto leading-relaxed">
-          Principal Project Associate, Wildlife Institute of India
+          Wildlife Institute of India
         </p>
         
         <p className="text-lg text-white/80 mb-8 max-w-3xl mx-auto">
-          Expertise in AI, Machine Learning, UAV and Satellite-based Ecological Monitoring
+          Expertise in Applied AI, Machine Intelligence, Data Science and Eco-informatics, Computer Vision, LLM + RAG, Machine Learning, UAV and Satellite-based Ecological Monitoring
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
